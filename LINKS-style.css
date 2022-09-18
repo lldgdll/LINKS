@@ -1,0 +1,512 @@
+body {
+    font-family: roboto, Arial;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.dark-mode {
+    background-color: rgb(39, 38, 41);
+    color: rgb(248, 248, 248);
+}
+.light-mode {
+    background-color: rgb(248, 248, 248);
+    color: rgb(29, 29, 29);
+}
+
+p {
+    margin-bottom: 9px;
+    margin-top: 25px;
+    font-weight: 700;
+}
+button {
+    height: 26px;
+    margin: 4px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.LightMode-button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    height: 20px;
+}
+.DarkMode-button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    right: 17px;
+    top: 0px;
+    height: 20px;
+}
+
+.mode-pics {
+    width: 13px;
+    border-radius: 4px;
+}
+
+/*
+rgb(35, 46, 65)
+rgb(35, 46, 65)
+rgb(214, 208, 196)
+*/
+
+
+
+.abadis{
+    background-color: rgb(126, 25, 117);
+    color: rgb(238, 238, 238);
+    border: 4px solid rgb(225, 225, 225);
+    border-right: none;
+    border-left: none;
+}
+
+.Cambridge{
+    background-color: rgb(29, 42, 87);
+    border: 1.7px solid rgb(211, 75, 12);
+    color: white;
+    border-radius: 13px;
+}
+
+.collinsdictionary{
+    background-color: rgb(183, 21, 51);
+    border: none;
+    color: white;
+}
+
+.duolingo {
+    color: rgb(102, 215, 42);
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold ;
+    font-size: 20px;
+    padding: 0px;
+}
+
+
+
+
+
+.goodreads{
+    background-color: rgb(214, 208, 196);
+    color: rgb(56, 33, 16);
+    border: 1.2px solid rgb(118, 118, 118);
+    border-radius: 13px;
+    font-weight: 100;
+}
+
+.z-lib {
+    color: rgb(70, 161, 191);
+    border: 1.6px solid rgb(133, 189, 76);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: .7px;
+}
+
+.libgen {
+    background-color: rgba(255, 255, 255, 0);
+    color:rgb(160, 0, 0);
+    border:1.5px solid rgb(33, 37, 41);
+}
+
+.languagecentre {
+    color:rgb(43, 133, 218);
+    border-color:rgb(43, 133, 218);
+    background-color: rgba(255, 255, 255, 0.943);
+}
+
+.pdfcoffee {
+    background-color: rgb(126, 74, 37);
+    color: rgb(243, 243, 243);
+    border-radius: 13px;
+    border: 1.4px solid rgb(56, 33, 16);
+}
+
+
+
+
+
+.Movie-Cottage {
+    background-color: rgb(29, 29, 29);
+    border-radius: 13px;
+    border-top-color: rgb(16, 125, 214);
+    border-left-color: rgb(16, 125, 214);
+    border-bottom-color: rgb(43, 198, 218);
+    border-right-color: rgb(43, 198, 218);
+    color:rgb(60, 147, 219);
+}
+
+.Ser-Movie {
+    background-color: rgb(135, 108, 245);
+    color: rgb(240, 240, 240);
+    border-top-color: rgb(237, 237, 241);
+    border-left-color: rgb(237, 237, 241);
+    border-bottom-color: rgb(241, 239, 242);
+    border-right-color: rgb(241, 239, 242);
+    border-radius: 7px;
+}
+
+.Film2Media {
+    background-color: rgb(17, 92, 120);
+    color: rgb(243, 243, 243);
+    border-color: rgb(243, 243, 243);
+    border-radius: 5px;
+}
+
+.ZarFilm {
+    color:rgb(255, 255, 255);
+    background-color: rgb(41,41,62);
+    border-radius: 7px;
+    border-color:rgb(235, 131, 7)
+}
+
+.Film2Movie {
+    background-color: rgb(47, 79, 79);
+    border:none;
+    border-radius: 5px;
+    color: rgb(227, 227, 227);
+    border-style: double;
+}
+
+.Almas-Movie {
+    background-color: rgb(29, 39, 51);
+    color: rgb(106, 177, 255);
+    border:2px solid rgb(255, 193, 7);
+    border-radius: 5px;
+}
+
+.Mobo-Movies {
+    border: 2px solid rgb(235, 197, 7);
+    background-color: rgb(39, 52, 68);
+    color: rgb(245, 205, 7);
+    border-radius: 5px;
+}
+
+.GemTV {
+    background-color: rgb(210, 54, 57);
+    color: rgb(239, 237, 241);
+    border-top-color: rgb(239, 237, 241);
+    border-left-color: rgb(239, 237, 241);
+    border-bottom-color: rgb(241, 239, 242);
+    border-right-color: rgb(241, 239, 242);
+    border-radius: 5px;
+}
+
+.Bia2Anime { 
+    background-color: rgb(50, 50, 61);
+    border-top-color: rgb(40, 185, 201);
+    border-left-color: rgb(40, 185, 201);
+    border-bottom-color: rgb(0, 123, 255);
+    border-right-color: rgb(0, 123, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+.film2serial{
+    background-color: rgb(228, 227, 237);
+    color: rgb(138, 100, 194);
+    border-radius: 13px;
+    border-color: rgb(138, 100, 194);
+}
+
+.Bestsitcomdl {
+    color: rgb(51, 122, 183);
+    border: 1.6px solid rgb(51, 122, 183);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+.SubKade {
+    background-color: rgb(48, 42, 42);
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+    border: 2px solid rgb(248, 157, 27);
+}
+
+.World-Subtitle {
+    border: 2px solid rgb(211, 75, 12);
+    color: white;
+    background-color: rgb(29, 28, 28);
+    border-radius: 13px;
+}
+
+.subf2m{
+    border: 1.4px solid rgb(33, 73, 95);
+    color: rgb(33, 73, 95);
+    background-color: rgb(255, 255, 255);
+}
+
+.Mira-Sub {
+    color:rgb(0, 153, 255);
+    border-color:rgb(43, 133, 218);
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    background-color: white;
+}
+
+.Blue-Subtitle{
+    background-color: rgb(25, 114, 245);
+    color:rgb(246, 246, 246);
+    border-color: rgb(246, 246, 246);
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.Sub-Movies {
+    background-color: white;
+    color:rgb(204, 105, 34);
+    border-radius: 13px;
+    border-top-color: rgb(204, 105, 34);
+    border-left-color: rgb(204, 105, 34);
+    border-bottom-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-width: 1.6px;
+}
+
+
+
+
+
+.SuperSimple {
+    color: rgb(26, 120, 76);
+    border-color: rgb(26, 120, 76);
+    background-color: white;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.RapidTables{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(12, 12, 12);
+    border-radius: .5px;
+    background-color: rgb(255, 134, 34);
+    border: 1px solid rgb(255, 134, 34);
+}
+
+.ilikephp {
+    background-color: rgb(212, 63, 58);
+    border-width: 1.6;
+    border-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.google-fonts {
+    border-top-color: rgb(234, 67, 53);
+    border-left-color: rgb(52, 168, 83);
+    border-bottom-color: rgb(66, 133, 244);
+    border-right-color: rgb(251, 188, 5);
+    border-radius: 13px;
+    background-color: white;
+    border-style: solid;
+}
+
+.stereotypebreakers {
+    background-color:rgb(229,206,193);
+    color: black;
+    border: none;
+}
+
+.icolorpalette {
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 58, 78);
+    border:none;
+    font-weight: 400;
+}
+
+
+
+
+
+.e-estekhdam {
+    background-color: rgb(96, 54, 149);
+    color: white;
+    border: 2px solid rgb(242, 242, 242);
+    border-radius: 5px;
+}
+.e-estekhdam:hover {
+    background-color: rgb(108, 66, 160);
+    border-color: rgb(108, 66, 160);
+    border: 2px solid rgb(242, 242, 242);
+}
+.e-estekhdam:active {
+    background-color: rgb(128, 77, 191);
+    border: 2px solid rgb(242, 242, 242);
+}
+
+.fiverr {
+    background-color: rgb(29, 191, 115);
+    color: white;
+    border-radius: 2px;
+    border:1px solid rgb(29, 191, 115);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.UpWork {
+    color: rgb(0, 30, 0);
+    border: 1px solid rgb(0, 30, 0);
+    border-radius: 13px;
+    background-color: rgb(242, 247, 242);
+}
+
+.Ali-Abdaal {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(56, 151, 211);
+    background-color: rgb(56, 151, 211);
+    border-radius: 2px;
+}
+
+.zamzar {
+    color: white;
+    background-color: rgb(9, 103, 211);
+    border: 2px solid rgb(60, 149, 9);
+    border-radius: 2px;
+}
+
+.cloudconvert {
+    color: white;
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(181, 56, 54);
+    border-radius: 2px;
+}
+
+.PDFcandy {
+    color: white;
+    background-color: rgb(229, 93, 66);
+    border: 2px solid rgb(229, 93, 66);
+    border-radius: 2px;
+}
+
+.onlineconverter {
+    color: rgb(183, 200, 210);
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(183, 200, 210);
+    border-radius: 2px;
+}
+
+.musclewiki {
+    font-style: italic;
+    font-weight: 700;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.295);
+    color: rgb(32, 64, 154);
+    font-size: 16px;
+}
+
+.movie-map {
+    background-color: rgb(202, 212, 224);
+    border: none;
+}
+
+
+
+
+
+.SETcoffee {
+    color: rgb(52, 24, 14);
+    border: 1.5px solid rgb(52, 24, 14);
+    border-radius: 5px;
+    background-color: rgb(227, 227, 227);;
+}
+
+.gilarism{
+    background-color: rgb(255, 225, 48);
+    border-radius: 13px;
+    color: rgb(68, 68, 68);
+    border: 1.2px solid rgb(68, 68, 68);
+}
+
+.behanbook {
+    background-color: rgb(29, 176, 194);
+    border-color: rgb(219, 219, 219);
+    border-style: solid;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.janebi{
+    border: 2px solid rgb(0, 123, 255);
+    color: rgb(46, 52, 59);
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: .3px;
+}
+
+.Raees-Coffee {
+    border: 3.75px solid rgb(20, 82, 42);
+    border-radius: 13px;
+    background-color: rgb(42, 28, 18);
+    color: white;
+}
+
+.zaban-shop {
+    background-color: rgb(245, 124, 0);
+    color: rgb(255, 255, 255);
+    border:3px solid rgb(201, 47, 30) ;
+}
+
+.spinker {
+    background-color: rgb(137, 120, 136);
+    color: rgb(248, 249, 250);
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.sibook{
+    background-color: rgb(35, 198, 218);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.rojashop {
+    border-color: rgb(40, 40, 40);
+    background: rgb(255, 255, 255);
+    border-style: double;
+    border-width: 1.3px;
+    color: rgb(40, 40, 40);
+    transition: .18s;
+}
+.rojashop:hover {
+    border-color: rgb(255, 255, 255);
+    background: rgb(40, 40, 40);
+    border-style: double;
+    border-width: 1.3px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.chloeting {
+    background-color: rgb(48, 48, 51);
+    border-radius: 13px;
+    border: none;
+    color: white;
+}
+
+.bonappetit {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+.havaalimag {
+    font-weight: 700;
+    background-color: rgb(217, 77, 20);
+    color: white;
+    border-radius: 1px;
+    border: none;
+}
